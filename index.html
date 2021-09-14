@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+    .card{
+        padding: 20px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #000;
+        border-radius: 15px;
+    }
+    .card:hover{
+        box-shadow: 0 0 10px rgba(0, 0,0, .5),0 0 40px rgba(0, 0,0, .5);
+        transition: .5s;
+    }
+    .card__img{
+        width: 100%;
+        max-width: 200px;
+        height: 200px;
+    }
+    .red{
+        background-color: rgb(97, 11, 11);
+    }
+    .green{
+        background-color: rgb(2, 119, 12);
+    }
+    .card__change{
+        color: #fff;
+        padding: 2px 5px;
+    }
+</style>
+<body>
+    <div class="container">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
